@@ -1,9 +1,18 @@
 # A first Cylc Workflow
 
 > [!IMPORTANT]
-> Full Cylc documentation, including a full tutorial can be found at
-> https://cylc.github.io/cylc-doc.
-> Rose documtation is available at https://metomi.github.io/rose.
+> This is a very truncated excercise designed to give
+> a rapid overview. Fuller documentation can be found at:
+> * [Cylc Documentation](https://cylc.github.io/cylc-doc) contains a full tutorial and reference.
+> * [Rose Documentation](https://metomi.github.io/rose) includes tutorials and reference.
+> * [Cylc & Rose Forum](https://cylc.discourse.group): Ask for help with Cylc and Rose.
+> * [Met Office Git and GitHub docs](https://metoffice.github.io/git-github-docs)
+> * [Met Office Git for Novices](https://metoffice.github.io/git-novice/) tutorial.
+> * [Met Office Git Working Practices](https://metoffice.github.io/git-working-practices/) tutorial.
+> * [Met Office Simulation Systems working practices documentation](https://metoffice.github.io/simulation-systems/)
+>   how all this works if you're developing or using LFRic.
+> * [Met Office Simulation Systems discussion forum](https://github.com/MetOffice/simulation-systems/discussions):
+>   Ask for help when developing the UM & LFRic.
 
 ## Practical
 
