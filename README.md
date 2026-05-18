@@ -90,12 +90,12 @@ After this practical, you should be able to:
 > Git is a distributed version control system.
 > You commit will not be on GitHub yet.
 
-1. Use `git push` to push your changes to GitHub. It will probably fail.
+23. Use `git push` to push your changes to GitHub. It will probably fail.
    Read the instructions in the failure message.
 
 ## Create a Pull Request (PR):
 
-1. [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+24. [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
    from your fork on GitHub to `metoffice/mut.git.cylc.intro`.
-1. Link this PR to issue number https://github.com/MetOffice/mut.git.cylc.intro/issues/1
+25. Link this PR to issue number https://github.com/MetOffice/mut.git.cylc.intro/issues/1
    by using the "closes" keyword in the PR description.
