@@ -99,3 +99,7 @@ After this practical, you should be able to:
    from your fork on GitHub to `metoffice/mut.git.cylc.intro`.
 25. Link this PR to issue number https://github.com/MetOffice/mut.git.cylc.intro/issues/1
    by using the "closes" keyword in the PR description.
+
+> [!WARNING]
+> SPOILER - you can see the answers at https://github.com/MetOffice/mut.git.cylc.intro/commit/aa993a1d43d83950d45026932e784e422ab94599
+
