@@ -1,5 +1,12 @@
 """Analyse Some Data"""
 
+def bad_method():
+    raise Exception(
+        'You do not have to be familiar with Python to suspect that'
+        ' this might be a bad function to run.'
+    )
+
+
 import math
 import os
 from pathlib import Path
@@ -12,6 +19,7 @@ ANALYSIS_TYPE = os.environ['ANALYSIS_TYPE']
 
 
 def main():
+    bad_method()    # You should delete this line!
     data = Path.read_text(DATA_FILE).split('\n')
     all_venus = [float(d.split(',')[2]) for d in data]
     if ANALYSIS_TYPE == 'geometric mean':
