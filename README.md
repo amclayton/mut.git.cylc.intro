@@ -88,7 +88,7 @@ After this practical, you should be able to:
 
 > [!IMPORTANT]
 > Git is a distributed version control system.
-> You commit will not be on GitHub yet.
+> Your commit will not be on GitHub yet.
 
 23. Use `git push` to push your changes to GitHub. It will probably fail.
    Read the instructions in the failure message.
