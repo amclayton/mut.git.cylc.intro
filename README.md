@@ -1,5 +1,10 @@
 # A first Cylc Workflow
 
+> [!IMPORTANT]
+> Full Cylc documentation, including a full tutorial can be found at
+> https://cylc.github.io/cylc-doc.
+> Rose documtation is available at https://metomi.github.io/rose.
+
 ## Practical
 
 ### Aims

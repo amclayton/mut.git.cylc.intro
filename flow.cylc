@@ -1,0 +1,34 @@
+#!jinja2
+[meta]
+    title = Example workflow for Momentum User Training
+    description = """
+        This workflow pretends to build some model, run some modelling
+        tasks for 5 years, then carry out an analysis of the data.
+    """
+
+[scheduling]        # When things happen
+    initial cycle point = 1995-01-01T00:00Z
+    final cycle point = 2000-01-01T00:00Z
+    [[graph]]
+        # Run once at the initial cycle point.
+        # This is a common pattern if there are compiled programs.
+        R1 = build => model
+
+        # Run the workflow every year, but not until the last year
+        # is done.
+        P1Y = model[-P1Y] => model
+
+        # At the final cycle point, run the analysis task
+        R1/$ = model => analysis
+
+[runtime]           # What happens
+    [[build]]
+        script = build.sh
+
+    [[model]]
+        script = rose task-run
+
+    [[analysis]]
+        script = python -c 'import analysis; analysis.main()'
+        [[[environment]]]
+            ANALYSIS_TYPE = {{ ANALYSIS_TYPE }}
