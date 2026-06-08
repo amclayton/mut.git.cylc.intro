@@ -40,9 +40,7 @@ After this practical, you should be able to:
    [How do I clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) - probably:
 
    ```console
-
-      git clone git@github.com/your_username/mut.git.cylc.intro ~/cylc-src/mut.git.cylc.intro
-
+      git clone https://github.com/MetOffice/mut.git.cylc.intro.git
    ```
 
 ## Explore the workflow directory
