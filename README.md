@@ -88,7 +88,7 @@ After this practical, you should be able to:
 ## Examine your changes:
 
 20. Use `git diff` to examine your changes.
-21. If you are happy, run `git add <changed file> for each of your changes.
+21. If you are happy, run `git add <changed file>` for each of your changes.
 22. Commit your changes with `git commit --message "Fix broken workflow"`
 
 > [!NOTE]
