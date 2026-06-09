@@ -19,7 +19,7 @@ ANALYSIS_TYPE = os.environ['ANALYSIS_TYPE']
 
 
 def main():
-    bad_method()    # You should delete this line!
+#    bad_method()    # You should delete this line!
     data = Path.read_text(DATA_FILE).split('\n')
     all_venus = [float(d.split(',')[2]) for d in data]
     if ANALYSIS_TYPE == 'geometric mean':
